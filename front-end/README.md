@@ -1,4 +1,4 @@
-## 前端学习路线
+## HTML&CSS知识点汇总
 
 ## JavaScript重点知识汇总
 * 数据类型（5+1）：Undefined、Null、Boolean、Number、String、Object
@@ -13,6 +13,8 @@
 * 原型（链）
 * 事件
 * new
+* BOM
+* DOM
 
 ### es6知识点
 * 箭头函数
@@ -20,4 +22,7 @@
 * let、const
 * 模板字符串 \``
 * 解构赋值
-* 
+* 展开运算符
+* 类 class
+* Promise
+* 模块
