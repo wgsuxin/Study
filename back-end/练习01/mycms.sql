@@ -117,7 +117,7 @@ INSERT INTO `my_auth_group` (`id`, `title`, `status`, `rules`) VALUES
 CREATE TABLE `my_auth_group_access` (
   `uid` mediumint(8) UNSIGNED NOT NULL,
   `group_id` mediumint(8) UNSIGNED NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='角色权限对应表';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='用户权限对应表';
 
 --
 -- 转存表中的数据 `my_auth_group_access`
