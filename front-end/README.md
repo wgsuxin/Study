@@ -13,8 +13,12 @@
 * 原型（链）
 * 事件
 * new
-* BOM
-* DOM
+* 浏览器对象模型（BOM）
+* 文档对象模型（DOM）
+* 表达式上下文（expression context）
+* 语句上下文（statement context）
+* &&与||
+* 逗号运算符
 
 ### es6知识点
 * 箭头函数
