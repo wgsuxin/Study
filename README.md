@@ -9,3 +9,4 @@
 
 ### 前端知识体系技能树
 * [在线参考地址](http://naotu.baidu.com/file/a99414323a95ee0b9fab934fb49b9973?token=35daaf239a8d1184)
+* [flex盒模型相关属性汇总](http://naotu.baidu.com/file/2f8dfa455311ac2752237eb9563a27d7?token=6391d11d43549eef)

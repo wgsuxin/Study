@@ -1,4 +1,5 @@
 ## HTML&CSS知识点汇总
+* flex布局
 
 ## JavaScript重点知识汇总
 * 数据类型（5+1）：Undefined、Null、Boolean、Number、String、Object
