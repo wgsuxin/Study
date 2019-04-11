@@ -53,7 +53,11 @@ class MyTodo extends React.Component{
       this.updateState = this.updateState.bind(this);
       this.clickBtn = this.clickBtn.bind(this);
       this.updateTodos = this.updateTodos.bind(this);
+      this.updateMyList = this.updateMyList.bind(this);
   };
+  updateMyList(){
+      this.refs['my-list'].innerHTML += '-已修改'
+  }
   updateState(e) {
       const str = e.target.value;
       if(str.length>0){
@@ -80,9 +84,10 @@ class MyTodo extends React.Component{
       <div style={{maxWidth:600,margin:'auto',marginTop:15}} className="card">
         <Header />
         <div className="card-body">
-          <h2>我的任务列表</h2>
+          <h2 ref="my-list">我的任务列表</h2>
           <TodoList todos={this.state.todosArr} />
           <TodoForm inputData={this.state.data} updateState={this.updateState} clickBtn={this.clickBtn} />
+          <button onClick={this.updateMyList}>修改列头</button>
         </div>
       </div>
     );
